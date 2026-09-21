@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 DEFAULT_DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                "modules", "drowsiness_data.db")
+                                "drowsiness_data.db")
 
 
 def load_data(db_path):
